@@ -6,8 +6,8 @@ import time
 import os
 
 # ضع التوكن هنا أو من متغير بيئة
-TOKEN = os.environ.get("BOT_TOKEN", "ضع_توكنك_هنا")
-CHAT_ID = os.environ.get("CHAT_ID", "ضع_ايديك_هنا")
+TOKEN = os.environ.get("BOT_TOKEN", "6750250794:AAFCjKFY17OQLXSqHDrXti_KTt8ZJK9iLJk")
+CHAT_ID = os.environ.get("CHAT_ID", "6133947276")
 
 bot = telebot.TeleBot(TOKEN)
 
